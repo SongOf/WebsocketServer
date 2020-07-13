@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.yanchuang.dashboardwebsocket.websocket.enable.WebSocketStarterConfigure

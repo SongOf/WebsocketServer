@@ -1,0 +1,16 @@
+
+rocketmq:
+  mqAddress: 123.56.46.27:9876
+  topicName: TestMessage
+  tagName: TagA
+
+websocket:
+  server:
+    ip: localhost
+    port: 8990
+    urlPrefix: /ws
+    runWithClient: true
+  client:
+    autoStart: false  #websocket服务端启动时为false 客户端启动时为true
+    clientId: group0003
+    groupId: client0001
